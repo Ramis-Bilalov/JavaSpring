@@ -1,11 +1,12 @@
 package ram.bilal.spring.chat;
 
+import org.springframework.stereotype.Component;
+
 import java.io.Closeable;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
-
 
 public class SerialHandler implements Closeable, Runnable {
 
@@ -14,7 +15,7 @@ public class SerialHandler implements Closeable, Runnable {
     private final ObjectInputStream is;
     private final ObjectOutputStream os;
     private boolean running;
-    private final EchoServer server;
+    private EchoServer server;
 
 
     public SerialHandler(Socket socket, EchoServer server) throws IOException {

@@ -3,6 +3,8 @@ package ram.bilal.spring.chat;
 import org.apache.log4j.PropertyConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -13,12 +15,10 @@ import java.util.concurrent.Executors;
 public class EchoServer {
 
     private boolean running;
-    //private ExecutorService executorService;
     private ConcurrentLinkedDeque<SerialHandler> clients = new ConcurrentLinkedDeque<>();
     private static final Logger LOG = LoggerFactory.getLogger(EchoServer.class);
 
     public EchoServer() {
-        // web 8080
         running = true;
         try(ServerSocket server = new ServerSocket(8180)) {
             String log4jConfPath = "java-spring-lesson-two/src/main/resources/log4j.properties";

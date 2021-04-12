@@ -10,3 +10,786 @@
 [2021-04-12 14:38:29 INFO  EchoServer: <init>:27] Server started!
 [2021-04-12 14:40:21 INFO  EchoServer: <init>:27] Server started!
 [2021-04-12 14:40:37 INFO  EchoServer: <init>:32] Client accepted!
+[2021-04-12 14:49:08 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ee807c6
+[2021-04-12 14:49:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 14:49:08 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\simple\BlackAndWhiteRoll.class]
+[2021-04-12 14:49:08 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\simple\Camera.class]
+[2021-04-12 14:49:08 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\simple\CameraRGB.class]
+[2021-04-12 14:49:08 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\simple\ColorRoll.class]
+[2021-04-12 14:49:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 14:49:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 14:49:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 14:49:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'appConfig'
+[2021-04-12 14:49:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'blackAndWhiteRoll'
+[2021-04-12 14:49:08 DEBUG PropertySourcesPropertyResolver: logKeyFound:115] Found key 'frames.count.bw' in PropertySource 'class path resource [application.properties]' with value of type String
+[2021-04-12 14:49:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'camera'
+[2021-04-12 14:49:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'colorRoll'
+[2021-04-12 14:49:08 DEBUG PropertySourcesPropertyResolver: logKeyFound:115] Found key 'frames.count.rgb' in PropertySource 'class path resource [application.properties]' with value of type String
+[2021-04-12 14:49:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'cameraRGB'
+[2021-04-12 15:03:27 INFO  EchoServer: <init>:27] Server started!
+[2021-04-12 15:05:16 INFO  EchoServer: <init>:27] Server started!
+[2021-04-12 15:05:35 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@72a1432c
+[2021-04-12 15:05:35 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 15:05:35 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 15:05:35 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 15:05:35 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 15:05:35 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 15:05:35 INFO  EchoServer: <init>:32] Client accepted!
+[2021-04-12 15:06:14 INFO  EchoServer: <init>:27] Server started!
+[2021-04-12 15:06:23 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@14327822
+[2021-04-12 15:06:23 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 15:06:24 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 15:06:24 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 15:06:24 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 15:06:24 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 15:06:24 INFO  EchoServer: <init>:32] Client accepted!
+[2021-04-12 15:06:29 INFO  EchoServer: broadCast:59] Сообщение: jjjj
+[2021-04-12 15:06:29 INFO  EchoServer: broadCast:59] Сообщение: 
+[2021-04-12 15:08:34 INFO  EchoServer: <init>:27] Server started!
+[2021-04-12 15:10:58 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@52260d56
+[2021-04-12 15:10:58 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 15:10:58 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]
+[2021-04-12 15:10:58 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 15:10:58 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 15:10:58 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 15:10:58 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 15:10:58 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'charReader'
+[2021-04-12 15:10:58 WARN  AnnotationConfigApplicationContext: refresh:590] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'charReader' defined in file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javafx.scene.control.TextArea' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2021-04-12 15:14:20 INFO  EchoServer: <init>:27] Server started!
+[2021-04-12 15:14:29 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d75835b
+[2021-04-12 15:14:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 15:14:29 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]
+[2021-04-12 15:14:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 15:14:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 15:14:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 15:14:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 15:14:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'charReader'
+[2021-04-12 15:14:29 WARN  AnnotationConfigApplicationContext: refresh:590] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'charReader' defined in file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javafx.scene.control.TextArea' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2021-04-12 15:21:26 INFO  EchoServer: <init>:27] Server started!
+[2021-04-12 15:21:43 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b80272b
+[2021-04-12 15:21:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 15:21:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]
+[2021-04-12 15:21:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\ChatController.class]
+[2021-04-12 15:21:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 15:21:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 15:21:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 15:21:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 15:21:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'charReader'
+[2021-04-12 15:21:43 WARN  AnnotationConfigApplicationContext: refresh:590] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'charReader' defined in file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javafx.scene.control.TextArea' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2021-04-12 15:28:58 INFO  EchoServer: <init>:27] Server started!
+[2021-04-12 15:29:13 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3f7970ea
+[2021-04-12 15:29:13 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 15:29:13 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]
+[2021-04-12 15:29:13 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\ChatController.class]
+[2021-04-12 15:29:14 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 15:29:14 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 15:29:14 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 15:29:14 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 15:29:14 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'charReader'
+[2021-04-12 15:29:14 WARN  AnnotationConfigApplicationContext: refresh:590] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'charReader' defined in file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javafx.scene.control.TextArea' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2021-04-12 15:30:57 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3f7970ea
+[2021-04-12 15:30:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 15:30:57 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\AuthController.class]
+[2021-04-12 15:30:57 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]
+[2021-04-12 15:30:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 15:30:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 15:30:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 15:30:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 15:30:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'authController'
+[2021-04-12 15:30:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'charReader'
+[2021-04-12 15:30:57 WARN  AnnotationConfigApplicationContext: refresh:590] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'charReader' defined in file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javafx.scene.control.TextArea' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2021-04-12 15:32:09 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 15:32:18 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6822c5e
+[2021-04-12 15:32:18 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 15:32:18 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\AuthController.class]
+[2021-04-12 15:32:18 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]
+[2021-04-12 15:32:18 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 15:32:18 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 15:32:18 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 15:32:18 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 15:32:18 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 15:32:18 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'authController'
+[2021-04-12 15:32:18 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'charReader'
+[2021-04-12 15:32:18 WARN  AnnotationConfigApplicationContext: refresh:590] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'charReader' defined in file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javafx.scene.control.TextArea' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2021-04-12 15:35:38 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@132f243a
+[2021-04-12 15:35:38 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 15:35:38 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\AuthController.class]
+[2021-04-12 15:35:38 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]
+[2021-04-12 15:35:38 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 15:35:39 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 15:35:39 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 15:35:39 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 15:35:39 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 15:35:39 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'authController'
+[2021-04-12 15:35:39 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'charReader'
+[2021-04-12 15:35:39 WARN  AnnotationConfigApplicationContext: refresh:590] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'charReader' defined in file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javafx.scene.control.TextArea' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2021-04-12 15:37:04 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 15:38:25 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 15:38:35 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@480b9ccb
+[2021-04-12 15:38:35 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 15:38:35 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\AuthController.class]
+[2021-04-12 15:38:35 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]
+[2021-04-12 15:38:35 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 15:38:35 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 15:38:35 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 15:38:35 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 15:38:35 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 15:38:35 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'authController'
+[2021-04-12 15:38:35 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'charReader'
+[2021-04-12 15:38:35 WARN  AnnotationConfigApplicationContext: refresh:590] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'charReader' defined in file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\CharReader.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javafx.scene.control.TextArea' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2021-04-12 15:40:12 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 15:40:21 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 15:40:24 INFO  EchoServer: broadCast:62] Сообщение: 7iiluoilkujy
+[2021-04-12 15:40:26 INFO  EchoServer: broadCast:62] Сообщение: tyioulyt
+[2021-04-12 15:40:50 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 15:40:58 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 15:41:01 INFO  EchoServer: broadCast:62] Сообщение: drhtjyuiuouikuyjthd
+[2021-04-12 15:41:53 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 15:42:01 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 15:42:03 INFO  EchoServer: broadCast:62] Сообщение: rshetrjyuik,l.
+[2021-04-12 15:51:52 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 15:52:07 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 15:52:10 INFO  EchoServer: broadCast:62] Сообщение: dsvvcdcdscascas
+[2021-04-12 15:57:45 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 15:57:55 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 15:57:58 INFO  EchoServer: broadCast:62] Сообщение: ssss
+[2021-04-12 15:59:40 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 15:59:43 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 16:00:24 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 16:00:26 INFO  EchoServer: broadCast:62] Сообщение: sdfdscadfv
+[2021-04-12 16:00:27 INFO  EchoServer: broadCast:62] Сообщение: 
+[2021-04-12 16:00:30 INFO  EchoServer: broadCast:62] Сообщение: fdsfbdgbfsfdbgfbds
+[2021-04-12 16:00:32 INFO  EchoServer: broadCast:62] Сообщение: gdfdbgfdfssadfsdbgfdefa
+[2021-04-12 16:17:48 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 16:17:57 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 16:17:59 INFO  EchoServer: broadCast:62] Сообщение: xzcvxcbvn 
+[2021-04-12 16:24:51 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 16:25:00 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2b55d372
+[2021-04-12 16:25:00 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:25:00 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\ChatController.class]
+[2021-04-12 16:25:00 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:25:00 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:25:00 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:25:00 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:25:00 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:25:00 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:25:00 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:25:00 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'chatController'
+[2021-04-12 16:25:00 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:25:00 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:25:00 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:25:00 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:25:00 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 16:25:03 INFO  EchoServer: broadCast:62] Сообщение: dfghj,
+[2021-04-12 16:25:06 INFO  EchoServer: broadCast:62] Сообщение: uyiokujyhtgd
+[2021-04-12 16:33:04 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 16:33:13 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6644f352
+[2021-04-12 16:33:13 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:33:13 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:33:13 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:33:13 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:33:13 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:33:13 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:33:13 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:33:13 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:33:13 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:33:13 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:33:13 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:33:13 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:33:13 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6644f352, started on Mon Apr 12 16:33:13 MSK 2021
+[2021-04-12 16:33:13 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 16:33:17 INFO  EchoServer: broadCast:62] Сообщение: 1
+[2021-04-12 16:33:19 INFO  EchoServer: broadCast:62] Сообщение: 1
+[2021-04-12 16:37:50 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 16:37:57 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445c45b
+[2021-04-12 16:37:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:37:57 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:37:57 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:37:57 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:37:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:37:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:37:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:37:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:37:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:37:57 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:37:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:37:57 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:37:58 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 16:38:00 INFO  EchoServer: broadCast:62] Сообщение: aseftrhyuik
+[2021-04-12 16:38:00 INFO  EchoServer: broadCast:62] Сообщение: 
+[2021-04-12 16:42:14 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 16:42:22 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7e4207bd
+[2021-04-12 16:42:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:42:22 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:42:22 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:42:22 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:42:22 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:42:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:42:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:42:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:42:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:42:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:42:22 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:42:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:42:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:42:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:43:46 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 16:43:52 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2868265d
+[2021-04-12 16:43:52 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:43:52 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:43:52 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:43:52 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:43:52 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:43:53 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:43:53 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:43:53 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:43:53 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:43:53 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:43:53 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:43:53 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:43:53 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:43:53 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:43:53 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 16:45:36 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 16:45:43 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24199f82
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:45:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:45:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:45:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:45:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:45:43 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:45:43 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49aa759
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:45:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:45:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:45:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:45:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:45:43 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:45:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:45:43 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 16:45:46 INFO  EchoServer: broadCast:62] Сообщение: awfegsrhtjymtdhrgs
+[2021-04-12 16:46:59 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 16:47:05 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1e4530fd
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:47:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:47:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:47:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:47:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:47:05 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:47:05 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1e4530fd, started on Mon Apr 12 16:47:05 MSK 2021
+[2021-04-12 16:47:05 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@21631f6
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:47:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:47:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:47:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:47:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:47:05 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:47:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:47:05 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 16:47:08 INFO  EchoServer: broadCast:62] Сообщение: dshjhkh,yjtfhdrgse
+[2021-04-12 16:49:13 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 16:49:21 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@55f2a2d9
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:49:21 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:49:21 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:49:21 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:49:21 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:49:21 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:49:21 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@55f2a2d9, started on Mon Apr 12 16:49:21 MSK 2021
+[2021-04-12 16:49:21 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@630af5cf
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:49:21 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:49:21 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:49:21 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:49:21 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:49:21 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:49:21 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:49:21 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 16:49:21 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@630af5cf, started on Mon Apr 12 16:49:21 MSK 2021
+[2021-04-12 16:49:24 INFO  EchoServer: broadCast:62] Сообщение: 21e3r4gr32ft
+[2021-04-12 16:49:35 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 16:49:41 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@257d142f
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:49:41 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:49:41 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:49:41 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:49:41 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:49:41 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:49:41 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@257d142f, started on Mon Apr 12 16:49:41 MSK 2021
+[2021-04-12 16:49:41 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1bba66fe
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:49:41 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:49:41 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:49:41 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:49:41 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:49:41 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:49:41 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:49:41 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 16:49:41 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1bba66fe, started on Mon Apr 12 16:49:41 MSK 2021
+[2021-04-12 16:49:50 INFO  EchoServer: <init>:30] Server started!
+[2021-04-12 16:50:02 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@68d1c113
+[2021-04-12 16:50:02 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:50:02 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:50:02 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:50:02 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:50:02 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:50:02 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:50:02 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:50:02 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:50:02 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:50:02 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:50:02 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:50:02 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:50:02 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:50:02 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:50:05 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@21776aa
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:50:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:50:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:50:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:50:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:50:05 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:50:05 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@21776aa, started on Mon Apr 12 16:50:05 MSK 2021
+[2021-04-12 16:50:05 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24349200
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:50:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\EchoServer.class]
+[2021-04-12 16:50:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:50:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:50:05 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'echoServer'
+[2021-04-12 16:50:05 INFO  EchoServer: <init>:46] Server crashed
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:50:05 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:50:05 INFO  EchoServer: <init>:35] Client accepted!
+[2021-04-12 16:50:05 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@24349200, started on Mon Apr 12 16:50:05 MSK 2021
+[2021-04-12 16:50:49 INFO  EchoServer: <init>:29] Server started!
+[2021-04-12 16:50:56 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@384ffab7
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:50:56 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:50:56 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:50:56 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:50:56 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@384ffab7, started on Mon Apr 12 16:50:56 MSK 2021
+[2021-04-12 16:50:56 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@39fd7662
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:50:56 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:50:56 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:50:56 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:50:56 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:50:56 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 16:50:56 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@39fd7662, started on Mon Apr 12 16:50:56 MSK 2021
+[2021-04-12 16:51:07 INFO  EchoServer: <init>:29] Server started!
+[2021-04-12 16:51:16 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7bd35a4c
+[2021-04-12 16:51:16 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:51:16 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:51:16 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:51:16 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:51:16 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:51:16 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:51:16 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:51:16 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:51:16 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:51:16 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:51:16 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:51:22 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7408a593
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:51:22 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:51:22 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:51:22 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:51:22 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7408a593, started on Mon Apr 12 16:51:22 MSK 2021
+[2021-04-12 16:51:22 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4206356b
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:51:22 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:51:22 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:51:22 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:51:22 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:51:22 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 16:51:22 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4206356b, started on Mon Apr 12 16:51:22 MSK 2021
+[2021-04-12 16:56:36 INFO  EchoServer: <init>:29] Server started!
+[2021-04-12 16:56:42 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5afce157
+[2021-04-12 16:56:42 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:56:42 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:56:42 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:56:42 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:56:42 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:56:42 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:56:42 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:56:42 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:56:42 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:56:42 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:56:42 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:56:43 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5afce157, started on Mon Apr 12 16:56:42 MSK 2021
+[2021-04-12 16:56:43 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@54a1c38b
+[2021-04-12 16:56:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:56:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:56:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:56:43 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:56:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:56:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:56:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:56:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:56:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:56:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:56:43 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:57:11 INFO  EchoServer: <init>:29] Server started!
+[2021-04-12 16:57:17 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24199f82
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:57:17 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:57:17 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 16:57:17 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:57:17 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 16:57:17 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:57:17 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@24199f82, started on Mon Apr 12 16:57:17 MSK 2021
+[2021-04-12 16:57:17 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2c51bcbe
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:57:17 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:57:17 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 16:57:17 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:57:17 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 16:57:17 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:57:17 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:57:17 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2c51bcbe, started on Mon Apr 12 16:57:17 MSK 2021
+[2021-04-12 16:57:20 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6bdafa16
+[2021-04-12 16:57:20 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:57:20 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:57:20 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 16:57:20 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:57:20 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:57:20 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:57:20 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:57:20 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:57:20 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:57:20 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:57:20 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 16:57:20 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 16:57:20 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:57:20 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:57:23 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1a4d3493
+[2021-04-12 16:57:23 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:57:23 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:57:23 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 16:57:23 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:57:23 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:57:23 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:57:23 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:57:23 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:57:23 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:57:23 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:57:23 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 16:57:23 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 16:57:23 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:57:23 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 16:57:27 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1dab3d5
+[2021-04-12 16:57:27 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 16:57:27 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 16:57:27 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 16:57:27 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 16:57:27 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 16:57:27 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 16:57:27 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 16:57:27 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 16:57:27 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 16:57:27 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 16:57:27 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 16:57:27 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 16:57:27 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 16:57:27 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:40:30 INFO  EchoServer: <init>:29] Server started!
+[2021-04-12 20:43:03 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71789c46
+[2021-04-12 20:43:03 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 20:43:03 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 20:43:03 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 20:43:03 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 20:43:03 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 20:43:03 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 20:43:03 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 20:43:03 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 20:43:03 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 20:43:03 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 20:43:03 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 20:43:03 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 20:43:03 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 20:43:03 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:43:04 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@71789c46, started on Mon Apr 12 20:43:03 MSK 2021
+[2021-04-12 20:43:04 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@617d99ea
+[2021-04-12 20:43:04 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 20:43:04 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 20:43:04 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 20:43:04 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 20:43:04 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 20:43:04 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 20:43:04 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 20:43:04 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 20:43:04 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 20:43:04 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 20:43:04 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 20:43:04 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 20:43:04 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 20:43:04 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:43:04 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@617d99ea, started on Mon Apr 12 20:43:04 MSK 2021
+[2021-04-12 20:43:07 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@67be0217
+[2021-04-12 20:43:07 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 20:43:07 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 20:43:07 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 20:43:07 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 20:43:07 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 20:43:07 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 20:43:07 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 20:43:07 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 20:43:07 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 20:43:07 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 20:43:07 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 20:43:07 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 20:43:07 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 20:43:07 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:43:10 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@45112e2f
+[2021-04-12 20:43:10 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 20:43:10 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 20:43:10 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 20:43:10 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 20:43:10 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 20:43:10 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 20:43:10 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 20:43:10 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 20:43:10 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 20:43:10 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 20:43:10 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 20:43:10 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 20:43:10 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 20:43:10 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:46:32 INFO  EchoServer: <init>:29] Server started!
+[2021-04-12 20:46:44 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445c45b
+[2021-04-12 20:46:44 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 20:46:44 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 20:46:44 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 20:46:44 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 20:46:44 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 20:46:44 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 20:46:44 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 20:46:44 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 20:46:44 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 20:46:44 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 20:46:44 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 20:46:44 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 20:46:44 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 20:46:44 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:46:45 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445c45b, started on Mon Apr 12 20:46:44 MSK 2021
+[2021-04-12 20:46:45 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1209371e
+[2021-04-12 20:46:45 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 20:46:45 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 20:46:45 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 20:46:45 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 20:46:45 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 20:46:45 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 20:46:45 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 20:46:45 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 20:46:45 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 20:46:45 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 20:46:45 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 20:46:45 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 20:46:45 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 20:46:45 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:46:45 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 20:47:18 INFO  EchoServer: <init>:29] Server started!
+[2021-04-12 20:47:25 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@8ddebc1
+[2021-04-12 20:47:25 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 20:47:25 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 20:47:25 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 20:47:25 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 20:47:25 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 20:47:25 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 20:47:25 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 20:47:25 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 20:47:25 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 20:47:25 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 20:47:25 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 20:47:25 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 20:47:25 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 20:47:25 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:47:26 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@8ddebc1, started on Mon Apr 12 20:47:25 MSK 2021
+[2021-04-12 20:47:26 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@64a3e6f5
+[2021-04-12 20:47:26 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 20:47:26 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 20:47:26 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\NetworkService.class]
+[2021-04-12 20:47:26 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 20:47:26 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 20:47:26 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 20:47:26 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 20:47:26 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 20:47:26 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 20:47:26 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 20:47:26 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'networkService'
+[2021-04-12 20:47:26 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 20:47:26 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 20:47:26 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:47:26 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 20:48:23 INFO  EchoServer: <init>:29] Server started!
+[2021-04-12 20:48:28 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@19489ad8
+[2021-04-12 20:48:28 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 20:48:28 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 20:48:28 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 20:48:28 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 20:48:28 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 20:48:28 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 20:48:28 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 20:48:28 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 20:48:28 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 20:48:28 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 20:48:28 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:48:29 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@19489ad8, started on Mon Apr 12 20:48:28 MSK 2021
+[2021-04-12 20:48:29 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@58e5e3b
+[2021-04-12 20:48:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 20:48:29 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 20:48:29 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 20:48:29 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 20:48:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 20:48:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 20:48:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 20:48:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 20:48:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 20:48:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 20:48:29 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:48:29 INFO  EchoServer: <init>:34] Client accepted!
+[2021-04-12 20:48:32 INFO  EchoServer: broadCast:61] Сообщение: 8484/848
+[2021-04-12 20:51:02 INFO  EchoServer: <init>:27] Server started!
+[2021-04-12 20:51:08 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2868265d
+[2021-04-12 20:51:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 20:51:08 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 20:51:08 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 20:51:08 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 20:51:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 20:51:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 20:51:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 20:51:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 20:51:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 20:51:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 20:51:08 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:51:09 DEBUG AnnotationConfigApplicationContext: doClose:1048] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2868265d, started on Mon Apr 12 20:51:08 MSK 2021
+[2021-04-12 20:51:09 DEBUG AnnotationConfigApplicationContext: prepareRefresh:628] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@33b2f586
+[2021-04-12 20:51:09 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-04-12 20:51:09 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\IoHistoryServiceImpl.class]
+[2021-04-12 20:51:09 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\RegistrationController.class]
+[2021-04-12 20:51:09 DEBUG ClassPathBeanDefinitionScanner: scanCandidateComponents:435] Identified candidate component class: file [O:\AndroidProject\java-spring\java-spring-lesson-two\target\classes\ram\bilal\spring\chat\UsersSQLiteDao.class]
+[2021-04-12 20:51:09 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-04-12 20:51:09 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-04-12 20:51:09 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-04-12 20:51:09 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'configClass'
+[2021-04-12 20:51:09 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'ioHistoryServiceImpl'
+[2021-04-12 20:51:09 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'registrationController'
+[2021-04-12 20:51:09 DEBUG DefaultListableBeanFactory: getSingleton:225] Creating shared instance of singleton bean 'usersSQLiteDao'
+[2021-04-12 20:51:09 INFO  EchoServer: <init>:32] Client accepted!
+[2021-04-12 20:51:12 INFO  EchoServer: broadCast:59] Сообщение: [loijuiygutyr
+[2021-04-12 20:51:12 INFO  EchoServer: broadCast:59] Сообщение: 

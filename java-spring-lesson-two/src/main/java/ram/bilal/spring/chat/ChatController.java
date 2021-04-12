@@ -9,10 +9,10 @@ import javafx.scene.Scene;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import java.io.IOException;
 import java.net.URL;
-import java.util.Arrays;
 import java.util.ResourceBundle;
 
 public class ChatController implements Initializable {
@@ -21,6 +21,7 @@ public class ChatController implements Initializable {
     public TextField input;
     private String userName;
     private CharReader reader;
+    NetworkService networkService;
 
     public String getUserName() {
         return userName;
@@ -41,17 +42,18 @@ public class ChatController implements Initializable {
         stage.setResizable(false);
         stage.show();
         input.getScene().getWindow().hide();
-        IoHistoryServiceImpl.getInstance().saveHistory(Arrays.asList(output.getText().split("\n").clone()));
         Platform.exit();
     }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(ConfigClass.class);
         try {
-            IoHistoryServiceImpl.getInstance().getHistory(50).forEach(historyLine -> {
-                output.appendText(historyLine + "\n");
-            });
-        } catch (IOException e) {
+        IoHistoryServiceImpl io = context.getBean("ioHistoryServiceImpl", IoHistoryServiceImpl.class);
+            io.getHistory(50).forEach(historyLine -> {
+                        output.appendText(historyLine + "\n");
+                    });
+        } catch (NullPointerException | IOException e) {
             e.printStackTrace();
         }
         userName = NetworkService.getInstance().getUserName();

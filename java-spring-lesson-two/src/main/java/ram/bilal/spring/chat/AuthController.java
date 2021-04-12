@@ -6,21 +6,22 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import java.io.IOException;
 
 public class AuthController {
 
     public TextField login;
     public TextField password;
-    private String nick;
-    private static AuthController instance;
-
 
     public void enter(ActionEvent actionEvent) throws IOException {
         boolean auth = false;
         try {
-            auth = UsersSQLiteDao.getInstance().userExists(login.getText(), password.getText());
-
+            ApplicationContext context = new AnnotationConfigApplicationContext(ConfigClass.class);
+            UsersSQLiteDao dao = context.getBean("usersSQLiteDao", UsersSQLiteDao.class);
+            auth = dao.userExists(login.getText(), password.getText());
+            ((AnnotationConfigApplicationContext)context).close();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -40,13 +41,6 @@ public class AuthController {
             password.clear();
             password.setPromptText("WRONG PASSWORD");
         }
-    }
-
-    public static AuthController getInstance() {
-        if (instance == null) {
-            instance = new AuthController();
-        }
-        return instance;
     }
 
     public void reg(ActionEvent actionEvent) throws IOException {

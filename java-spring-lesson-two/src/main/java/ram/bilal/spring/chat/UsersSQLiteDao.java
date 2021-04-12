@@ -1,18 +1,22 @@
 package ram.bilal.spring.chat;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import java.io.Closeable;
 import java.io.IOException;
 import java.sql.*;
 
+@Component
 public class UsersSQLiteDao implements UserDao, Closeable {
 
     private Connection connection;
     private PreparedStatement getNicknameStatement;
     private PreparedStatement updateNickStatement;
     private PreparedStatement userExistsStatement;
-    private static UsersSQLiteDao instance;
     private String nick;
 
+    @Autowired
     public UsersSQLiteDao() throws ClassNotFoundException, SQLException {
         Class.forName("org.sqlite.JDBC");
         connection = DriverManager.getConnection("jdbc:sqlite:chatDB");
@@ -31,13 +35,6 @@ public class UsersSQLiteDao implements UserDao, Closeable {
 
     public void setNick(String nick) {
         this.nick = nick;
-    }
-
-    public static UsersSQLiteDao getInstance() throws SQLException, ClassNotFoundException {
-        if (instance == null) {
-            instance = new UsersSQLiteDao();
-        }
-        return instance;
     }
 
     public String setAuth(String login, String password) throws SQLException {

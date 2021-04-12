@@ -21,6 +21,7 @@ public class NetworkService {
         }
     }
 
+
     public static NetworkService getInstance() {
         if (instance == null) {
             instance = new NetworkService();

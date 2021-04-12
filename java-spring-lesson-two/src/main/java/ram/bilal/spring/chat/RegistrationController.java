@@ -6,7 +6,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.stereotype.Component;
 
+@Component
 public class RegistrationController {
 
     public TextField login1;
@@ -49,7 +53,9 @@ public class RegistrationController {
 
     public void enter(ActionEvent actionEvent) {
         try {
-            UsersSQLiteDao.getInstance().updateUser(login1.getText(), password1.getText(), nickname.getText(), email.getText());
+            ApplicationContext context = new AnnotationConfigApplicationContext(ConfigClass.class);
+            UsersSQLiteDao dao = context.getBean("usersSQLiteDao", UsersSQLiteDao.class);
+            dao.updateUser(login1.getText(), password1.getText(), nickname.getText(), email.getText());
             Parent auth = FXMLLoader.load(getClass().getResource("auth.fxml"));
             Stage stage = new Stage();
             stage.setTitle("Вход");

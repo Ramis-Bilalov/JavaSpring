@@ -1,13 +1,15 @@
 package ram.bilal.spring.chat;
 
 import javafx.scene.control.TextArea;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
+
 public class CharReader extends Thread {
 
-    private final TextArea out;
-    private final ObjectInputStream is;
+    private TextArea out;
+    private ObjectInputStream is;
     private boolean running;
 
     public CharReader(TextArea out, ObjectInputStream is) {

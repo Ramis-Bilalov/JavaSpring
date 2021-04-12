@@ -1,5 +1,7 @@
 package ram.bilal.spring.chat;
 
+import org.springframework.stereotype.Component;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -8,20 +10,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Component
 public class IoHistoryServiceImpl implements HistoryService {
 
     private static final String path = "history.txt";
-    private static IoHistoryServiceImpl instance;
+//    private static IoHistoryServiceImpl instance;
 
     public IoHistoryServiceImpl() {
     }
 
-    public static IoHistoryServiceImpl getInstance() {
-        if (instance == null) {
-            instance = new IoHistoryServiceImpl();
-        }
-        return instance;
-    }
+//    public static IoHistoryServiceImpl getInstance() {
+//        if (instance == null) {
+//            instance = new IoHistoryServiceImpl();
+//        }
+//        return instance;
+//    }
 
     @Override
     public List<String> getHistory(int limit) throws IOException {
