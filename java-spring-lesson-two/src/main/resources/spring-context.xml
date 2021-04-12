@@ -7,12 +7,13 @@
   http://www.springframework.org/schema/context
   http://www.springframework.org/schema/context/spring-context.xsd">
 
-<!--    <bean id = "camera" class="ram.bilal.Camera">-->
-<!--        <constructor-arg ref = "blackAndWhiteRoll"/>-->
+
+<!--    <bean id="blackAndWhiteRoll" class="ram.bilal.spring.start.BlackAndWhiteRoll"/>-->
+
+<!--    <bean id="camera" class="ram.bilal.spring.start.Camera">-->
+<!--        <constructor-arg ref="blackAndWhiteRoll"/>-->
 <!--    </bean>-->
 
-<!--    <bean id = "blackAndWhiteRoll" class="ram.bilal.BlackAndWhiteRoll"/>-->
-
-<!--    <context:component-scan base-package="ram.bilal"/>-->
+<!--    <context:component-scan base-package="ram.bilal.spring"/>-->
 
 </beans>

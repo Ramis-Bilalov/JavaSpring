@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>java-spring-core-lesson-two</artifactId>
+    <artifactId>java-spring-lesson-two</artifactId>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,4 +30,5 @@
             <version>5.3.4</version>
         </dependency>
     </dependencies>
+
 </project>

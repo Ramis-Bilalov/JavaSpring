@@ -10,6 +10,7 @@
     <modules>
         <module>java-ee-lesson-one</module>
         <module>java-spring-core-lesson-two</module>
+        <module>java-spring-lesson-two</module>
     </modules>
     <packaging>pom</packaging>
 

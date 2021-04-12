@@ -1,4 +1,4 @@
-package ram.bilal.simple;
+package ram.bilal.spring.simple;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class CameraRGB {
-
     private CameraRoll cameraRoll;
 
     @Autowired
@@ -16,7 +15,7 @@ public class CameraRGB {
     }
 
     public void doPhoto() {
-        System.out.println("Click!");
+        System.out.println("Click");
         cameraRoll.processing();
     }
 }

@@ -1,4 +1,4 @@
-package ram.bilal;
+package ram.bilal.spring.start;
 
 public class BlackAndWhiteRoll implements CameraRoll {
 
@@ -12,6 +12,6 @@ public class BlackAndWhiteRoll implements CameraRoll {
     public void processing() {
 //        count--;
         System.out.println("-1 b/w frame");
-//        System.out.printf("Roll has %d frame(s)\n", count);
+//        System.out.printf("Roll has %d frames(s)\n", count);
     }
 }

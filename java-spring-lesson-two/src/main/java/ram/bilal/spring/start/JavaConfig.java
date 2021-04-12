@@ -1,4 +1,4 @@
-package ram.bilal;
+package ram.bilal.spring.start;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 //@Configuration
-//@ComponentScan("ram.bilal")
+//@ComponentScan("ram.bilal.spring")
 //@PropertySource("classpath:application.properties")
 public class JavaConfig {
 

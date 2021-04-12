@@ -1,4 +1,4 @@
-package ram.bilal.simple;
+package ram.bilal.spring.simple;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

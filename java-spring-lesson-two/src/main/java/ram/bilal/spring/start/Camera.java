@@ -1,10 +1,9 @@
-package ram.bilal;
+package ram.bilal.spring.start;
 
 import org.springframework.stereotype.Component;
 
 @Component
 public class Camera {
-
     private CameraRoll cameraRoll;
 
     public Camera(CameraRoll cameraRoll) {

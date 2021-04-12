@@ -1,4 +1,4 @@
-package ram.bilal.simple;
+package ram.bilal.spring.simple;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
@@ -14,6 +14,6 @@ public class ColorRoll implements CameraRoll {
     public void processing() {
         count--;
         System.out.println("-1 colored frame");
-        System.out.printf("Roll has %d frame(s)\n", count);
+        System.out.printf("Roll has %d frames(s)\n", count);
     }
 }
