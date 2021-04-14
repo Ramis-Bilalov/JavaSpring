@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="600.0" prefWidth="567.0" style="-fx-background-color: #4682B4;"
+            xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ram.bilal.spring.chat.ChatController">
+    <children>
+        <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="34.0" prefWidth="538.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #556B2F;">
+            <children>
+                <MenuBar layoutX="6.0" layoutY="5.0" style="-fx-background-color: #ffffff;">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="File">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#quit" text="Quit" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="14.0" layoutY="60.0" prefHeight="525.0" prefWidth="538.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #556B2F;">
+            <children>
+                <TextArea fx:id="output" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="433.0" prefWidth="511.0">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font></TextArea>
+                <TextField fx:id="input" layoutX="14.0" layoutY="459.0" onAction="#send" prefHeight="54.0" prefWidth="443.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #556B2F;" />
+                <Button layoutX="469.0" layoutY="458.0" mnemonicParsing="false" onAction="#send" prefHeight="54.0" prefWidth="54.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #556B2F;" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
+

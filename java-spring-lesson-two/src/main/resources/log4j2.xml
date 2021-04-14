@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug">
+
+    <Appenders>
+        <RollingFile name="MAIN" fileName="java3.log">
+            <PatternLayout pattern = "[%d] %-5p [%t] %m%n"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="MAIN"/>
+        </Root>
+    </Loggers>
+</Configuration>
