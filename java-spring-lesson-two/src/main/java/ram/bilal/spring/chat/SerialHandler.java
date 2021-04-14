@@ -1,5 +1,7 @@
 package ram.bilal.spring.chat;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import java.io.Closeable;
@@ -15,8 +17,7 @@ public class SerialHandler implements Closeable, Runnable {
     private final ObjectInputStream is;
     private final ObjectOutputStream os;
     private boolean running;
-    private EchoServer server;
-
+    EchoServer server;
 
     public SerialHandler(Socket socket, EchoServer server) throws IOException {
         os = new ObjectOutputStream(socket.getOutputStream());

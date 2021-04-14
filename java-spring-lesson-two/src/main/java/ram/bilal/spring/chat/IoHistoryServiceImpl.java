@@ -14,17 +14,9 @@ import java.util.stream.Collectors;
 public class IoHistoryServiceImpl implements HistoryService {
 
     private static final String path = "history.txt";
-//    private static IoHistoryServiceImpl instance;
 
     public IoHistoryServiceImpl() {
     }
-
-//    public static IoHistoryServiceImpl getInstance() {
-//        if (instance == null) {
-//            instance = new IoHistoryServiceImpl();
-//        }
-//        return instance;
-//    }
 
     @Override
     public List<String> getHistory(int limit) throws IOException {
