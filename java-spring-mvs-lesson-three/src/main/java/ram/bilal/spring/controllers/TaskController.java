@@ -16,6 +16,7 @@ public class TaskController {
 
     @Autowired
     private ProductRepository productRepository;
+    private Product product;
 
     @GetMapping
     public String indexPage(Model model) {
@@ -36,14 +37,14 @@ public class TaskController {
     }
 
     @GetMapping("/new")
-    public String newProduct(Model model) {
-        // дописать добавление продукта
+    public String newProduct(Product product) {
+        productRepository.add(product);
         return "task-views/product_form"; // не заполненная!!!
     }
 
-    @GetMapping("/delete")
-    public String removeProduct(Model model) {
-        // дописать удаление продукта
-        return "task-views/index"; // не заполненная!!!
+    @GetMapping("/delete/{id}")
+    public String removeProduct(@PathVariable(value = "id") Long id) {
+        productRepository.remove(id);
+        return "redirect:/product"; // не заполненная!!!
     }
 }

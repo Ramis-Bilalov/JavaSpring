@@ -25,6 +25,10 @@ public class ProductRepository {
         add(new Product(null, "iPad", "More size - more cost", new BigDecimal(2000)));
     }
 
+    public Map<Long, Product> getIdentityMap() {
+        return identityMap;
+    }
+
     public void add(Product product) {
         product.setId(identity.incrementAndGet());
         identityMap.put(product.getId(), product);
