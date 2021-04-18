@@ -10,7 +10,8 @@
     <modules>
         <module>java-ee-lesson-one</module>
         <module>java-spring-lesson-two</module>
-        <module>java-spring-mvs-lesson-three</module>
+        <module>java-spring-mvс-lesson-three</module>
+<!--        <module>java-spring-boot-lesson-four</module>-->
     </modules>
     <packaging>pom</packaging>
 
