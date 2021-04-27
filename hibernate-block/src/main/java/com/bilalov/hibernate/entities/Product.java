@@ -1,7 +1,10 @@
 package com.bilalov.hibernate.entities;
 
+import org.hibernate.annotations.Formula;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
+import java.util.List;
 
 @Entity
 @Table(name = "products")
@@ -22,7 +25,26 @@ public class Product {
     @JoinColumn(name = "manufacturer_id")
     Manufacturer manufacturer;
 
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(
+            name = "customers_products",
+            joinColumns = @JoinColumn(name = "product_id"),
+            inverseJoinColumns = @JoinColumn(name = "customer_id")
+    )
+    private List<Customer> customers;
+
+    @Formula("(SELECT c.name FROM customers AS c WHERE c.id = id)")
+    public String customer;
+
     public Product() {
+    }
+
+    public String getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(String customer) {
+        this.customer = customer;
     }
 
     public Long getId() {

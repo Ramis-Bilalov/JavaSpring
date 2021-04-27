@@ -20,5 +20,12 @@
         <mapping class="com.bilalov.hibernate.entities.Product"/>
         <mapping class="com.bilalov.hibernate.entities.BigItem"/>
 
+<!--        <mapping class="com.bilalov.hibernate.Catalog"/>-->
+<!--        <mapping class="com.bilalov.hibernate.entities.Book"/>-->
+<!--        <mapping class="com.bilalov.hibernate.entities.Reader"/>-->
+<!--        <mapping class="com.bilalov.hibernate.entities.Author"/>-->
+
+
+
     </session-factory>
 </hibernate-configuration>
