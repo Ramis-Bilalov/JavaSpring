@@ -25,7 +25,6 @@ public class Book {
             joinColumns = @JoinColumn(name = "book_id"),
             inverseJoinColumns = @JoinColumn(name = "reader_id")
     )
-
     private List<Reader> readers;
 
     public Book() {
