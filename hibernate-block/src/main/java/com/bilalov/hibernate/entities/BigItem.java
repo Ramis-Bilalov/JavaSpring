@@ -23,6 +23,10 @@ public class BigItem {
     public BigItem() {
     }
 
+    public BigItem(int val) {
+        this.val = val;
+    }
+
     public Long getId() {
         return id;
     }
