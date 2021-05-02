@@ -14,4 +14,12 @@ public class ProductSpecification {
     public static Specification<Product> titleLike(String titleFilter) {
         return (root, query, builder) -> builder.like(root.get("title"), "%" + titleFilter + "%");
     }
+
+    public static Specification<Product> getMin(BigDecimal max) {
+        return (root, query, builder) -> builder.greaterThanOrEqualTo(root.get("price"), max);
+    }
+
+    public static Specification<Product> getMax(BigDecimal min) {
+        return (root, query, builder) -> builder.lessThanOrEqualTo(root.get("price"), min);
+    }
 }

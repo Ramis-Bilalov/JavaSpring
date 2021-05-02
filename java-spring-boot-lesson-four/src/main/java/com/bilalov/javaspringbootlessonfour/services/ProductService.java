@@ -9,6 +9,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import javax.transaction.Transactional;
+import java.math.BigDecimal;
 import java.util.Optional;
 
 
@@ -39,6 +40,8 @@ public class ProductService {
 
     @Transactional
     public Page<Product> getByParams(Optional<String> nameFilter,
+                                     Optional<BigDecimal> min,
+                                     Optional<BigDecimal> max,
                                      Optional<Integer> page,
                                      Optional<Integer> size) {
 
@@ -47,7 +50,15 @@ public class ProductService {
             specification = specification.and(ProductSpecification.titleLike(nameFilter.get()));
         }
 
+        if (min.isPresent()) {
+            specification = specification.and(ProductSpecification.getMin(min.get()));
+        }
+
+        if (max.isPresent()) {
+            specification = specification.and(ProductSpecification.getMax(max.get()));
+        }
+
         return productRepository.findAll(specification,
-                PageRequest.of(page.orElse(1) - 1, size.orElse(5)));
+                PageRequest.of(page.orElse(1) - 1, size.orElse(15)));
     }
 }

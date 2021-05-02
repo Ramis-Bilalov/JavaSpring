@@ -2,7 +2,7 @@ package com.bilalov.javaspringbootlessonfour.controllers;
 
 import com.bilalov.javaspringbootlessonfour.entities.Product;
 import com.bilalov.javaspringbootlessonfour.services.ProductService;
-import javassist.NotFoundException;
+import com.bilalov.javaspringbootlessonfour.services.exceptions.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
@@ -23,16 +23,18 @@ public class ProductController {
     @GetMapping
     public String indexPage(Model model,
                             @RequestParam(name = "titleFilter", required = false) Optional<String> titleFilter,
+                            @RequestParam(name = "min", required = false) Optional<BigDecimal> min,
+                            @RequestParam(name = "max", required = false) Optional<BigDecimal> max,
                             @RequestParam(name = "page", required = false) Optional<Integer> page,
                             @RequestParam(name = "size", required = false) Optional<Integer> size) {
-        model.addAttribute("products", productService.getByParams(titleFilter, page, size));
+        model.addAttribute("products", productService.getByParams(titleFilter, min, max, page, size));
         return "product_views/index";
     }
 
     @GetMapping("/{id}")
     public String editProduct(@PathVariable(value = "id") Long id,
                               Model model) {
-        model.addAttribute("product", productService.getById(id));
+        model.addAttribute("product", productService.getById(id).orElseThrow(NotFoundException::new));
         return "product_views/product_form";
     }
 
