@@ -67,12 +67,11 @@
                     <a class="page-link" th:href="@{/product(
                     page=${num},
                     size=${products.size},
-                    titleFilter=${param.ttleFilter},
+                    titleFilter=${param.titleFilter},
                     minPrice=${param.minPrice},
                     maxPrice=${param.maxPrice}
                     )}">[[${num}]]</a>
                 </li>
-
                 <li class="page-item"><a class="page-link" href="#">Next</a></li>
             </ul>
         </nav>

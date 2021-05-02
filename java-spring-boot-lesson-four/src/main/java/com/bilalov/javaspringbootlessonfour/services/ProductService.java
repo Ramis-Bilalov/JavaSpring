@@ -59,6 +59,6 @@ public class ProductService {
         }
 
         return productRepository.findAll(specification,
-                PageRequest.of(page.orElse(1) - 1, size.orElse(15)));
+                PageRequest.of(page.orElse(1) - 1, size.orElse(5)));
     }
 }
