@@ -58,6 +58,9 @@ public class ProductService {
             specification = specification.and(ProductSpecification.getMax(max.get()));
         }
 
+        if(min.isPresent() && max.isPresent()) {
+            specification = specification.and(ProductSpecification.getBetweenPrice(min.get(), max.get()));
+        }
         return productRepository.findAll(specification,
                 PageRequest.of(page.orElse(1) - 1, size.orElse(5)));
     }
