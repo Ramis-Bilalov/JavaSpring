@@ -2,6 +2,7 @@ package com.bilalov.javaspringbootlessonfour.controllers;
 
 import com.bilalov.javaspringbootlessonfour.entities.Product;
 import com.bilalov.javaspringbootlessonfour.services.ProductService;
+import com.bilalov.javaspringbootlessonfour.services.exceptions.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -31,7 +32,7 @@ public class ProductController {
     @GetMapping("/{id}")
     public String editProduct(@PathVariable(value = "id") Long id,
                               Model model) {
-        model.addAttribute("product", productService.getById(id));
+        model.addAttribute("product", productService.getById(id).orElseThrow(NotFoundException::new));
         return "product_views/product_form";
     }
 

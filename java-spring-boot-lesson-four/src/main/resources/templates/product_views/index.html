@@ -1,14 +1,6 @@
 <!doctype html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
-    <title>Product list</title>
-</head>
+<head th:replace="fragments/head :: header"/>
 <body>
 
 <div class="container">
@@ -19,6 +11,12 @@
             </div>
             <div class="col-6">
                 <form class="form-inline" th:method="get">
+
+                    <input type="number" th:value="${param.min}" class="form-control-md"
+                           id="min" name="min" placeholder="Min">
+
+                    <input type="number" th:value="${param.max}" class="form-control-md"
+                           id="max" name="max" placeholder="Max">
 
                     <input type="text" th:value="${param.titleFilter}" class="form-control-md"
                            id="title-filter" name="titleFilter" placeholder="Find">
@@ -39,7 +37,7 @@
             </tr>
             </thead>
             <tbody>
-            <tr th:each="product : ${products}">
+            <tr th:if="${products.hasContent()}" th:each="product : ${products}">
                 <th scope="row" th:text="${product.id}">1</th>
                 <th scope="row" th:text="${product.title}">1</th>
                 <th scope="row" th:text="${product.description}">1</th>
@@ -50,6 +48,11 @@
                             class="far fa-trash-alt"></i></a>
                 </th>
             </tr>
+
+            <tr th:unless="${products.hasContent()}">
+                <td colspan="5">No data</td>
+            </tr>
+
             </tbody>
         </table>
 
@@ -58,13 +61,30 @@
             <a class="btn btn-outline-dark"  th:href="@{/product/new}">Next</a>
         </center>
     </div>
+
+    <div th:if="${products.hasContent()}">
+        <nav aria-label="product list">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li th:each="num : ${#numbers.sequence(1, products.totalPages)}"
+                    class="page-item"
+                    th:classappend="${num == products.number + 1} ? 'active'">
+                    <a class="page-link" th:href="@{/product(
+                    page=${num},
+                    size=${products.size},
+                    titleFilter=${param.titleFilter},
+                    minPrice=${param.minPrice},
+                    maxPrice=${param.maxPrice}
+                    )}">[[${num}]]</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+
 </div>
 
+<script th:replace="fragments/footer :: scripts"/>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
-
-<script src="https://kit.fontawesome.com/e8cd5e0a28.js" crossorigin="anonymous"></script>
 </body>
 </html>
