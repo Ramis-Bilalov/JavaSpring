@@ -44,7 +44,8 @@ public class ProductService {
                                      Optional<BigDecimal> min,
                                      Optional<BigDecimal> max,
                                      Optional<Integer> page,
-                                     Optional<Integer> size) {
+                                     Optional<Integer> size,
+                                     Optional<String> sorting) {
 
         Specification<Product> specification = Specification.where(null);
         if (nameFilter.isPresent()) {
@@ -57,6 +58,22 @@ public class ProductService {
 
         if (max.isPresent()) {
             specification = specification.and(ProductSpecification.getMax(max.get()));
+        }
+
+        if (sorting.isPresent() && size.isPresent()) {
+            if (sorting.get().equals("price")) {
+                Sort criterion = Sort.by("price").descending();
+                return productRepository.findAll(specification,
+                        PageRequest.of(page.orElse(1) - 1, size.orElse(4), criterion));
+            }
+        }
+
+        if (sorting.isPresent()) {
+            if (sorting.get().equals("decription")) {
+                Sort criterion = Sort.by("description").ascending();
+                return productRepository.findAll(specification,
+                        PageRequest.of(page.orElse(1) - 1, size.orElse(4), criterion));
+            }
         }
 
         return productRepository.findAll(specification,
