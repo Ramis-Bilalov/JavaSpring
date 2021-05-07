@@ -1,5 +1,9 @@
 package com.bilalov.javaspringbootlessonfour.rest;
 
+import com.bilalov.javaspringbootlessonfour.dto.ProductDTO;
+import com.bilalov.javaspringbootlessonfour.dto.ProductMapper;
+import com.bilalov.javaspringbootlessonfour.dto.UserMapper;
+import com.bilalov.javaspringbootlessonfour.dto.UserDTO;
 import com.bilalov.javaspringbootlessonfour.entities.User;
 import com.bilalov.javaspringbootlessonfour.services.UsersService;
 import com.bilalov.javaspringbootlessonfour.services.exceptions.NotFoundException;
@@ -23,8 +27,13 @@ public class UserRestController {
     }
 
     @GetMapping(path = "/{id}/id", produces = "application/json")
-    public User findById(@PathVariable("id") Long id) {
-        return service.findById(id).orElseThrow(NotFoundException::new);
+    public UserDTO findById(@PathVariable("id") Long id) {
+        User user = service.findById(id).orElseThrow(NotFoundException::new);
+        UserDTO userDTO = UserMapper.MAPPER.fromUser(user);
+        List<ProductDTO> productDTOList = ProductMapper.MAPPER.fromProductList(user.getProducts());
+        userDTO.setProductDTOS(productDTOList);
+        userDTO.setNickname("little-" + user.getLogin());
+        return userDTO;
     }
 
     @GetMapping(path = "/list", produces = "application/json")
@@ -39,12 +48,12 @@ public class UserRestController {
     }
 
     @PutMapping(consumes = "application/json", produces = "application/json")
-    public User updateUser(@RequestBody User user) {
-        service.createOrUpdate(user);
-        return user;
+    public UserDTO save(@RequestBody UserDTO userDTO) {
+        User user = UserMapper.MAPPER.toUser(userDTO);
+        return UserMapper.MAPPER.fromUser(user);
     }
 
-    @DeleteMapping( "/{id}/id")
+    @DeleteMapping("/{id}/id")
     public void deleteById(@PathVariable("id") Long id) {
         service.deleteById(id);
     }
@@ -53,4 +62,27 @@ public class UserRestController {
     public ResponseEntity<String> notFoundExceptionHandler(NotFoundException e) {
         return new ResponseEntity<>("Entity not found", HttpStatus.NOT_FOUND);
     }
+
+//    private UserDTO toDTO(User user) {
+//        return UserDTO.builder()
+//                .id(user.getId())
+//                .login(user.getLogin())
+//                .nickname("little-" + user.getLogin())
+//                .productDTOS(toDTOs(user.getProducts()))
+//                .build();
+//    }
+//
+//    private List<ProductDTO> toDTOs(List<Product> products) {
+//        return products.stream().map(p -> toDTO(p)).collect(Collectors.toList());
+//    }
+//
+//    private ProductDTO toDTO(Product product) {
+//        return ProductDTO.builder()
+//                .id(product.getId())
+//                .title(product.getTitle())
+//                .description(product.getDescription())
+//                .price(product.getPrice())
+//                .build();
+//    }
 }
+
