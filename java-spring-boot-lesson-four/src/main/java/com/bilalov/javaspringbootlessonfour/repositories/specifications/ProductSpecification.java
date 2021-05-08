@@ -1,6 +1,5 @@
 package com.bilalov.javaspringbootlessonfour.repositories.specifications;
 
-
 import com.bilalov.javaspringbootlessonfour.entities.Product;
 import org.springframework.data.jpa.domain.Specification;
 
