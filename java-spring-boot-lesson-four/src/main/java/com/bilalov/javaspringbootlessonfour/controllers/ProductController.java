@@ -25,9 +25,18 @@ public class ProductController {
                             @RequestParam(name = "max", required = false) Optional<BigDecimal> max,
                             @RequestParam(name = "page", required = false) Optional<Integer> page,
                             @RequestParam(name = "size", required = false) Optional<Integer> size,
-                            @RequestParam(name = "sorting", required = false) Optional<String> sorting
+                            @RequestParam(name = "sortField", required = false) Optional<String> sortField,
+                            @RequestParam(name = "sortOrder", required = false) Optional<String> sortOrder
                             ) {
-        model.addAttribute("products", productService.getByParams(titleFilter, min, max, page, size, sorting));
+        model.addAttribute("products",
+                productService.getByParams(
+                        titleFilter,
+                        min,
+                        max,
+                        page,
+                        size,
+                        sortField,
+                        sortOrder));
         return "product_views/index";
     }
 
