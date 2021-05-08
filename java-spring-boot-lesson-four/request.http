@@ -1,0 +1,32 @@
+GET http://localhost:8080/api/v1/user/list
+
+###
+
+GET http://localhost:8080/api/v1/user/3/id
+
+###
+
+POST http://localhost:8080/api/v1/user/
+Content-Type: application/json
+
+{
+  "id": 2,
+  "login": "user2",
+  "password": "user2"
+}
+
+
+###
+
+PUT http://localhost:8080/api/v1/user/
+Content-Type: application/json
+
+{
+  "id": 1,
+  "login": "admin",
+  "password": "admin"
+}
+
+###
+
+DELETE http://localhost:8080/api/v1/user/3/id

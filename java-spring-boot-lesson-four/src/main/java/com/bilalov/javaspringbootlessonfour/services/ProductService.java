@@ -59,7 +59,7 @@ public class ProductService {
         if (max.isPresent()) {
             specification = specification.and(ProductSpecification.getMax(max.get()));
         }
-
+      
         if (sorting.isPresent() && size.isPresent()) {
             if (sorting.get().equals("price")) {
                 Sort criterion = Sort.by("price").descending();

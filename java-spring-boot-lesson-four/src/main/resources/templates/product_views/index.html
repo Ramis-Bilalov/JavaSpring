@@ -93,6 +93,11 @@
             </tr>
             </thead>
         </table>
+
+        <center>
+        <a class="btn btn-outline-dark"  th:href="@{/product/new}">Previous</a>
+            <a class="btn btn-outline-dark"  th:href="@{/product/new}">Next</a>
+        </center>
     </div>
 
     <div th:if="${products.hasContent()}">
