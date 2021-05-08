@@ -30,3 +30,27 @@ Content-Type: application/json
 ###
 
 DELETE http://localhost:8080/api/v1/user/3/id
+
+###
+
+GET http://localhost:8080/api/v1/product/list
+
+###
+
+GET http://localhost:8080/api/v1/product/3/id
+
+###
+
+POST http://localhost:8080/api/v1/product/
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "MacBook Air",
+  "description": "Small and powerful",
+  "price": 280000
+}
+
+###
+
+DELETE http://localhost:8080/api/v1/product/2/id
