@@ -51,7 +51,8 @@ public class ProductService {
                                      Optional<BigDecimal> max,
                                      Optional<Integer> page,
                                      Optional<Integer> size,
-                                     Optional<String> sorting) {
+                                     Optional<String> sortField,
+                                     Optional<String> sortOrder) {
 
         Specification<Product> specification = Specification.where(null);
         if (nameFilter.isPresent()) {
@@ -65,24 +66,17 @@ public class ProductService {
         if (max.isPresent()) {
             specification = specification.and(ProductSpecification.getMax(max.get()));
         }
-      
-        if (sorting.isPresent() && size.isPresent()) {
-            if (sorting.get().equals("price")) {
-                Sort criterion = Sort.by("price").descending();
-                return productRepository.findAll(specification,
-                        PageRequest.of(page.orElse(1) - 1, size.orElse(4), criterion));
-            }
+
+        if(min.isPresent() && max.isPresent()) {
+            specification = specification.and(ProductSpecification.getBetweenPrice(min.get(), max.get()));
         }
 
-        if (sorting.isPresent()) {
-            if (sorting.get().equals("decription")) {
-                Sort criterion = Sort.by("description").ascending();
-                return productRepository.findAll(specification,
-                        PageRequest.of(page.orElse(1) - 1, size.orElse(4), criterion));
-            }
+        if (sortField.isPresent() && sortOrder.isPresent()) {
+            return productRepository.findAll(specification, PageRequest.of(page.orElse(1) - 1, size.orElse(4),
+                    Sort.by(Sort.Direction.fromString(sortOrder.get()), sortField.get())));
         }
 
         return productRepository.findAll(specification,
-                PageRequest.of(page.orElse(1) - 1, size.orElse(4)));
+                PageRequest.of(page.orElse(1) - 1, size.orElse(5)));
     }
 }

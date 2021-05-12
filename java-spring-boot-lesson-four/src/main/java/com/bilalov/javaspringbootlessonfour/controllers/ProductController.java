@@ -4,9 +4,11 @@ import com.bilalov.javaspringbootlessonfour.entities.Product;
 import com.bilalov.javaspringbootlessonfour.services.ProductService;
 import com.bilalov.javaspringbootlessonfour.services.exceptions.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.math.BigDecimal;
 import java.util.Optional;
@@ -63,6 +65,13 @@ public class ProductController {
     public String removeProduct(@PathVariable(value = "id") Long id) {
         productService.remove(id);
         return "redirect:/product";
+    }
+
+    @ExceptionHandler
+    public ModelAndView notFoundExceptionHandler(NotFoundException exception) {
+        ModelAndView modelAndView = new ModelAndView("product_views/not-found");
+        modelAndView.setStatus(HttpStatus.NOT_FOUND);
+        return modelAndView;
     }
 }
 
