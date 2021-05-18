@@ -1,15 +1,17 @@
 package com.bilalov.javaspringbootlessonfour.controllers;
 
+import com.bilalov.javaspringbootlessonfour.entities.Basket;
 import com.bilalov.javaspringbootlessonfour.entities.Product;
+import com.bilalov.javaspringbootlessonfour.services.BasketService;
 import com.bilalov.javaspringbootlessonfour.services.ProductService;
 import com.bilalov.javaspringbootlessonfour.services.exceptions.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.core.parameters.P;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
-
 import java.math.BigDecimal;
 import java.util.Optional;
 
@@ -19,6 +21,9 @@ public class ProductController {
 
     @Autowired
     private ProductService productService;
+
+    @Autowired
+    private BasketService basketService;
 
     @GetMapping
     public String indexPage(Model model,
@@ -59,6 +64,16 @@ public class ProductController {
     public String newProduct(Model model) {
         model.addAttribute(new Product());
         return "product_views/product_form";
+    }
+
+    @PostMapping("/addToBasket")
+    public String addToBasket(Product product) {
+        Basket basket = new Basket();
+        basket.setTitle(product.getTitle());
+        basket.setDescription(product.getDescription());
+        basket.setPrice(product.getPrice());
+        basketService.addOrUpdate(basket);
+        return "redirect:/product";
     }
 
     @GetMapping("/delete/{id}")
