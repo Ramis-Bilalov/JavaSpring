@@ -29,6 +29,11 @@ public class BasketService {
     }
 
     @Transactional
+    public void remove(Long id) {
+        basketRepository.deleteById(id);
+    }
+
+    @Transactional
     public Page<Basket> getByParams(Optional<String> nameFilter,
                                      Optional<BigDecimal> min,
                                      Optional<BigDecimal> max,

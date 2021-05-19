@@ -5,35 +5,20 @@
 <head th:replace="fragments/head :: navbar"/>
 <div class="container">
     <div class="col-10 mx-auto">
-        <h1>Basket of products</h1>
-            <table class="table">
-                <thead>
-                <tr>
-                    <th scope="col" th:include="fragments/sort_header_basket :: sort_header('Id', 'id')">id</th>
-                    <th scope="col" th:include="fragments/sort_header_basket :: sort_header('Title', 'title')">Title</th>
-                    <th scope="col" th:include="fragments/sort_header_basket :: sort_header('Description', 'description')">Description</th>
-                    <th scope="col" th:include="fragments/sort_header_basket :: sort_header('Price', 'price')">Price</th>
-                    <th scope="col">Actions</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr th:if="${basket.hasContent()}" th:each="baskett : ${basket}">
-                    <th scope="row" th:text="${baskett.id}">1</th>
-                    <th scope="row" th:text="${baskett.title}">1</th>
-                    <th scope="row" th:text="${baskett.description}">1</th>
-                    <th scope="row" th:text="${baskett.price}">1</th>
-                    <th>
-                        <a class="btn btn-danger" th:href="@{/basket/delete/{id}(id = ${baskett.id})}"><i
-                                class="far fa-trash-alt"></i></a>
-                    </th>
-                </tr>
-
-                <tr th:unless="${basket.hasContent()}">
-                    <td colspan="5">No data</td>
-                </tr>
-
-                </tbody>
-            </table>
+        <h1>Edit product</h1>
+        <form th:action="@{add_to_basket}" th:method="post" th:object="${basket}">
+            <input type="hidden" th:field="*{id}">
+            <div class="mb-3">
+                <input type="hidden" class="form-control" th:field="*{title}" placeholder="Enter name">
+            </div>
+            <div class="mb-3">
+                <input type="hidden" class="form-control" th:field="*{description}" placeholder="Enter description">
+            </div>
+            <div class="mb-3">
+                <input type="hidden" class="form-control" th:field="*{price}" placeholder="Enter price">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
 
     </div>
 </div>

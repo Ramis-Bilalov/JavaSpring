@@ -1,6 +1,8 @@
 package com.bilalov.javaspringbootlessonfour.services;
 
+import com.bilalov.javaspringbootlessonfour.entities.Basket;
 import com.bilalov.javaspringbootlessonfour.entities.Product;
+import com.bilalov.javaspringbootlessonfour.repositories.BasketRepository;
 import com.bilalov.javaspringbootlessonfour.repositories.ProductRepository;
 import com.bilalov.javaspringbootlessonfour.repositories.specifications.ProductSpecification;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +21,7 @@ import java.util.Optional;
 public class ProductService {
 
     private ProductRepository productRepository;
+    private BasketRepository basketRepository;
 
     @Autowired
     public void setProductRepository(ProductRepository productRepository) {
@@ -38,6 +41,16 @@ public class ProductService {
     @Transactional
     public void addOrUpdate(Product product) {
         productRepository.save(product);
+    }
+
+    @Transactional
+    public void addToBasket(Product product) {
+        Basket basket = new Basket();
+        basket.setTitle(product.getTitle());
+        System.out.println(product.getTitle());
+        basket.setDescription(product.getDescription());
+        basket.setPrice(new BigDecimal(15000));
+        basketRepository.save(basket);
     }
 
     @Transactional

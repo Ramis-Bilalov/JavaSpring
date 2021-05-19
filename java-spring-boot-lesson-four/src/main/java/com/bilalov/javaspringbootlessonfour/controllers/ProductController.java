@@ -66,8 +66,9 @@ public class ProductController {
         return "product_views/product_form";
     }
 
-    @PostMapping("/addToBasket")
-    public String addToBasket(Product product) {
+    @GetMapping("/to_basket/{id}")
+    public String addToBasket(@PathVariable(value = "id") Long id) {
+        Product product = productService.getById(id).get();
         Basket basket = new Basket();
         basket.setTitle(product.getTitle());
         basket.setDescription(product.getDescription());

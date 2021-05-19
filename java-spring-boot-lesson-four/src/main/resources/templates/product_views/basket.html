@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/head :: header"/>
+<body>
+<head th:replace="fragments/head :: navbar"/>
+<div class="container">
+    <div class="col-10 mx-auto">
+        <h1>Basket of products</h1>
+            <table class="table">
+                <thead>
+                <tr>
+<!--                    <th scope="col" th:include="fragments/sort_header_basket :: sort_header('Id', 'id')">id</th>-->
+                    <th scope="col" th:include="fragments/sort_header_basket :: sort_header('Title', 'title')">Title</th>
+                    <th scope="col" th:include="fragments/sort_header_basket :: sort_header('Description', 'description')">Description</th>
+                    <th scope="col" th:include="fragments/sort_header_basket :: sort_header('Price', 'price')">Price</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:if="${basket.hasContent()}" th:each="baskett : ${basket}">
+<!--                    <th scope="row" th:text="${baskett.id}">1</th>-->
+                    <th scope="row" th:text="${baskett.title}">1</th>
+                    <th scope="row" th:text="${baskett.description}">1</th>
+                    <th scope="row" th:text="${baskett.price}">1</th>
+                    <th>
+                        <a class="btn btn-danger" th:href="@{/basket/delete/{id}(id = ${baskett.id})}"><i
+                                class="far fa-trash-alt"></i></a>
+                    </th>
+                </tr>
+
+                <tr th:unless="${basket.hasContent()}">
+                    <td colspan="5">No data</td>
+                </tr>
+
+                </tbody>
+            </table>
+
+    </div>
+
+    <div th:if="${basket.hasContent()}">
+        <nav aria-label="product list">
+            <ul class="pagination justify-content-center">
+                <li class="page-item" th:if="${basket.hasPrevious()}">
+                    <a class="page-link" th:href="@{basket(page=${basket.number},
+                    size=${basket.size},
+                    titleFilter=${param.titleFilter},
+                    min=${param.min},
+                    max=${param.max}
+                    )}">Previous</a></li>
+                <li th:each="num : ${#numbers.sequence(1, basket.totalPages)}"
+                    class="page-item"
+                    th:classappend="${num == basket.number + 1} ? 'active'">
+                    <a class="page-link" th:href="@{/basket(
+                    page=${num},
+                    size=${basket.size},
+                    titleFilter=${param.titleFilter},
+                    min=${param.min},
+                    max=${param.max}
+                    )}">[[${num}]]</a>
+                </li>
+                <li class="page-item" th:if="${basket.hasNext()}">
+                    <a class="page-link" th:href="@{basket(page=${basket.number+2},
+                    size=${basket.size},
+                    titleFilter=${param.titleFilter},
+                    min=${param.min},
+                    max=${param.max}
+                    )}">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</div>
+
+
+<script th:replace="fragments/footer :: scripts"/>
+
+</body>
+</html>

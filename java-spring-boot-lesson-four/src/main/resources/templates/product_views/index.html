@@ -47,7 +47,7 @@
                     <a class="btn btn-success" th:href="@{/product/{id}(id = ${product.id})}"><i class="fas fa-edit"></i></a>
                     <a class="btn btn-danger" th:href="@{/product/delete/{id}(id = ${product.id})}"><i
                             class="far fa-trash-alt"></i></a>
-                    <a class="btn btn-outline-dark" th:href="@{/product/addToBasket}"><i class="fas fa-plus"></i></a>
+                    <a class="btn btn-outline-dark" th:href="@{/product/to_basket/{id}(id = ${product.id})}"><i class="fas fa-plus"></i></a>
                 </th>
             </tr>
 
